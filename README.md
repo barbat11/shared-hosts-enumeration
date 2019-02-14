@@ -9,3 +9,5 @@ We have ip-list.txt containing: host1.xyz.com host2.xyz.com
 root@localhost: ./shared-enum.sh ip-list.txt
 
 Output is aquatone reports, one separate folder for each host in format host-name / ip-address
+
+Note: Aquatone required for script to run
