@@ -6,7 +6,7 @@
 
 self="$(basename "$(test -L "$0" && readlink "$0" || echo "$0")")"
 
-if type aquat0ne 2>&1 | grep -q "not"; then
+if type aquatone 2>&1 | grep -q "not"; then
   printf "Error: Aquatone not installed. To install, visit https://github.com/michenriksen/aquatone.\n"
   exit 0
   fi
