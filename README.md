@@ -10,7 +10,7 @@ host1.xyz.com
 
 host2.xyz.com
 
-root@localhost: ./shared-enum.sh ip-list.txt
+Run: ./shared-enum.sh ip-list.txt
 
 Output is two aquatone reports in different folders: host1-xyz-com, host2-xyz-com
 
