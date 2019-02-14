@@ -1,6 +1,6 @@
 # shared-hosts-enumeration
 
-Script for enumerating webapps of all domains given a list of Shared Hosting IP Addresses.
+Script for enumerating webapps of all domains given a list of Shared Hosting IP Addresses by using Reverse-IP lookups and aquatone.
 
 Example:
 
