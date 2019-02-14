@@ -4,7 +4,9 @@ Script for enumerating webapps of all domains given a list of Shared Hosting IP 
 
 Example:
 
-We have ip-list.txt containing: host1.xyz.com host2.xyz.com
+We have ip-list.txt containing: 
+host1.xyz.com 
+host2.xyz.com
 
 root@localhost: ./shared-enum.sh ip-list.txt
 
