@@ -1,14 +1,15 @@
+#!/bin/bash 
+
 #Shared Hosting Enumeration script by Paul Barbat
 #Usage: ./script.sh ip-list.txt
 #Each IP output in separate directory
 
 self="$(basename "$(test -L "$0" && readlink "$0" || echo "$0")")"
-exists="$(type aquatone)"
 
-if [[ ${exists} == *"not found"* ]]; then
-  printf "Error: Aquatone not installed. To install, visit https://github.com/michenriksen/aquatone."
+if type aquat0ne 2>&1 | grep -q "not"; then
+  printf "Error: Aquatone not installed. To install, visit https://github.com/michenriksen/aquatone.\n"
   exit 0
-fi
+  fi
 
 if [ $# -lt 1 ]; 
    then 
